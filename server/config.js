@@ -241,7 +241,7 @@ const conf = convict({
   },
   footer_cli_url: {
     format: String,
-    default: 'https://github.com/armt-solutionsf/ffsend',
+    default: 'https://github.com/armt-solutions/ffsend',
     env: 'SEND_FOOTER_CLI_URL'
   },
   footer_dmca_url: {

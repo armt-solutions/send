@@ -19,10 +19,6 @@ class Header extends Component {
 
   createElement() {
     let assetMap = {};
-    console.log('gheci');
-    console.log(assets.get('icon.svg'));
-    console.log(assets.get('icon_white.svg'));
-    console.log(this.state);
     if (this.state.ui !== undefined) assetMap = this.state.ui.assets;
     else
       assetMap = {
@@ -39,8 +35,6 @@ class Header extends Component {
             ? this.state.WEB_UI.CUSTOM_ASSETS.wordmark
             : assets.get('wordmark.svg') + '#logo'
       };
-    console.log('assetMap');
-    console.log(assetMap);
 
     const title =
       platform() === 'android'

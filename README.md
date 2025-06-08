@@ -43,7 +43,7 @@ Thanks [Mozilla][mozilla] for building this amazing tool!
 [branch-send-v3]: https://github.com/armt-solutions/send/-/tree/send-v3
 [branch-send-v4]: https://github.com/armt-solutions/send/-/tree/send-v4
 [donate]: https://timvisee.com/donate
-[ffsend]: https://github.com/armt-solutionsf/ffsend
+[ffsend]: https://github.com/armt-solutions/ffsend
 [fork-commit]: https://github.com/armt-solutions/send/-/commit/3e9be676413a6e1baaf6a354c180e91899d10bec
 [mozilla-patches-pr]: https://github.com/armt-solutions/send/-/merge_requests/3
 [mozilla-patches]: https://github.com/armt-solutions/send/-/compare/3e9be676413a6e1baaf6a354c180e91899d10bec...mozilla-master
@@ -150,7 +150,7 @@ AWS example using Ubuntu Server `20.04`: [docs/AWS.md](docs/AWS.md)
 ## Clients
 
 - Web: _this repository_
-- Command-line: [`ffsend`](https://github.com/armt-solutionsf/ffsend)
+- Command-line: [`ffsend`](https://github.com/armt-solutions/ffsend)
 - Android: _see [Android](#android) section_
 - Thunderbird: [FileLink provider for Send](https://addons.thunderbird.net/thunderbird/addon/filelink-provider-for-send/)
 
