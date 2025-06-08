@@ -2,7 +2,7 @@ name: build custom image
 on:
   push:
     branches:
-      - github-actions-build
+      - master
   workflow_dispatch:
     
 env:
