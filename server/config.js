@@ -251,7 +251,7 @@ const conf = convict({
   },
   footer_source_url: {
     format: String,
-    default: 'https://github.com/timvisee/send',
+    default: 'https://github.com/armt-solutions/send',
     env: 'SEND_FOOTER_SOURCE_URL'
   },
   custom_footer_text: {

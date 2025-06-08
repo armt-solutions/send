@@ -133,7 +133,7 @@ Pull requests are always welcome! Feel free to check out the list of "good first
 
 ## Instances
 
-Find a list of public instances here: https://github.com/timvisee/send-instances/
+Find a list of public instances here: https://github.com/armt-solutions/send-instances/
 
 ---
 

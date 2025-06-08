@@ -15,11 +15,11 @@ docker run -v $PWD/uploads:/uploads -p 1443:1443 \
 
 Or clone this repo and run `docker build -t send:latest .` to build an image locally.
 
-*Note: for Docker Compose, see: https://github.com/timvisee/send-docker-compose*
+*Note: for Docker Compose, see: https://github.com/armt-solutions/send-docker-compose*
 
 ## Environment Variables
 
-All the available config options and their defaults can be found here: https://github.com/timvisee/send/blob/master/server/config.js
+All the available config options and their defaults can be found here: https://github.com/armt-solutions/send/blob/master/server/config.js
 
 Config options should be set as unquoted environment variables. Boolean options should be `true`/`false`, time/duration should be integers (seconds), and filesize values should be integers (bytes).
 
@@ -36,7 +36,7 @@ Config options expecting array values (e.g. `EXPIRE_TIMES_SECONDS`, `DOWNLOAD_CO
 | `SEND_FOOTER_DMCA_URL` | A URL to a contact page for DMCA requests (empty / not shown by default)
 | `SENTRY_CLIENT`, `SENTRY_DSN`  | Sentry Client ID and DSN for error tracking (optional, disabled by default)
 
-*Note: more options can be found here: https://github.com/timvisee/send/blob/master/server/config.js*
+*Note: more options can be found here: https://github.com/armt-solutions/send/blob/master/server/config.js*
 
 #### Upload and Download Limits
 
@@ -53,7 +53,7 @@ Configure the limits for uploads and downloads. Long expiration times are risky 
 | `DEFAULT_DOWNLOADS` | Default download limit in UI (defaults to `1`)
 | `DEFAULT_EXPIRE_SECONDS` | Default expire time in UI (defaults to `86400`)
 
-*Note: more options can be found here: https://github.com/timvisee/send/blob/master/server/config.js*
+*Note: more options can be found here: https://github.com/armt-solutions/send/blob/master/server/config.js*
 
 #### Storage Backend Options
 
@@ -76,7 +76,7 @@ Redis is used as the metadata database for the backend and is required no matter
 | `AWS_SECRET_ACCESS_KEY` | S3 secret access key ID (only set if using S3 for storage)
 | `GCS_BUCKET` | Google Cloud Storage bucket (only set if using GCP for storage)
 
-*Note: more options can be found here: https://github.com/timvisee/send/blob/master/server/config.js*
+*Note: more options can be found here: https://github.com/armt-solutions/send/blob/master/server/config.js*
 
 ## Branding
 
@@ -158,4 +158,4 @@ $ docker run -p 1443:1443 \
 
 For a Docker compose configuration example, see:
 
-https://github.com/timvisee/send-docker-compose
+https://github.com/armt-solutions/send-docker-compose
