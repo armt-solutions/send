@@ -1,6 +1,6 @@
 ## Docker Quickstart
 
-Use `registry.gitlab.com/timvisee/send:latest` from [`timvisee/send`'s Gitlab image registry](https://gitlab.com/timvisee/send/container_registry) for the latest Docker image.
+Use `registry.gitlab.com/timvisee/send:latest` from [`timvisee/send`'s Gitlab image registry](https://github.com/armt-solutions/send/container_registry) for the latest Docker image.
 
 ```bash
 docker pull registry.gitlab.com/timvisee/send:latest
@@ -93,6 +93,7 @@ See the table below for the variables and their default values.
 | UI_CUSTOM_ASSETS_FAVICON_16PX | | A custom favicon (16x16px) |
 | UI_CUSTOM_ASSETS_FAVICON_32PX | | A custom favicon (32x32px) |
 | UI_CUSTOM_ASSETS_ICON | | A custom icon (Logo on the top-left of the UI) |
+| UI_CUSTOM_ASSETS_WHITE_ICON | | A custom icon (Logo on the top-left of the UI, for white mode, required for noe) |
 | UI_CUSTOM_ASSETS_SAFARI_PINNED_TAB | | A custom icon for Safari |
 | UI_CUSTOM_ASSETS_FACEBOOK | | A custom header image for Facebook |
 | UI_CUSTOM_ASSETS_TWITTER | | A custom header image for Twitter |

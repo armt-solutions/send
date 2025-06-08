@@ -19,6 +19,10 @@ class Header extends Component {
 
   createElement() {
     let assetMap = {};
+    console.log('gheci');
+    console.log(assets.get('icon.svg'));
+    console.log(assets.get('icon_white.svg'));
+    console.log(this.state);
     if (this.state.ui !== undefined) assetMap = this.state.ui.assets;
     else
       assetMap = {
@@ -26,16 +30,24 @@ class Header extends Component {
           this.state.WEB_UI.CUSTOM_ASSETS.icon !== ''
             ? this.state.WEB_UI.CUSTOM_ASSETS.icon
             : assets.get('icon.svg'),
+        icon_white:
+          this.state.WEB_UI.CUSTOM_ASSETS.icon_white !== ''
+            ? this.state.WEB_UI.CUSTOM_ASSETS.icon_white
+            : assets.get('icon_white.svg'),
         wordmark:
           this.state.WEB_UI.CUSTOM_ASSETS.wordmark !== ''
             ? this.state.WEB_UI.CUSTOM_ASSETS.wordmark
             : assets.get('wordmark.svg') + '#logo'
       };
+    console.log('assetMap');
+    console.log(assetMap);
+
     const title =
       platform() === 'android'
         ? html`
             <a class="flex flex-row items-center">
-              <img src="${assetMap.icon}" />
+              <img class="hidden dark:block" src="${assetMap.icon_white}" />
+              <img class="dark:hidden" src="${assetMap.icon}" />
               <svg class="w-48">
                 <use xlink:href="${assetMap.wordmark}" />
               </svg>
@@ -44,6 +56,12 @@ class Header extends Component {
         : html`
             <a class="flex flex-row items-center" href="/">
               <img
+                class="hidden dark:block"
+                alt="${this.state.translate('title')}"
+                src="${assetMap.icon_white}"
+              />
+              <img
+                class="dark:hidden"
                 alt="${this.state.translate('title')}"
                 src="${assetMap.icon}"
               />

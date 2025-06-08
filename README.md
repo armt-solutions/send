@@ -1,4 +1,4 @@
-# [![Send](./assets/icon-64x64.png)](https://gitlab.com/timvisee/send/) Send
+# [![Send](./assets/icon-64x64.png)](https://github.com/armt-solutions/send/) Send
 
 [![Build status on GitLab CI][gitlab-ci-master-badge]][gitlab-ci-link]
 [![Latest release][release-badge]][release-link]
@@ -6,11 +6,11 @@
 [![Project license][repo-license-badge]](LICENSE)
 
 [docker-image-badge]: https://img.shields.io/badge/docker-latest-blue.svg
-[docker-image-link]: https://gitlab.com/timvisee/send/container_registry/eyJuYW1lIjoidGltdmlzZWUvc2VuZCIsInRhZ3NfcGF0aCI6Ii90aW12aXNlZS9zZW5kL3JlZ2lzdHJ5L3JlcG9zaXRvcnkvMTQxODUwNC90YWdzP2Zvcm1hdD1qc29uIiwiaWQiOjE0MTg1MDQsImNsZWFudXBfcG9saWN5X3N0YXJ0ZWRfYXQiOm51bGx9
-[gitlab-ci-link]: https://gitlab.com/timvisee/send/pipelines
-[gitlab-ci-master-badge]: https://gitlab.com/timvisee/send/badges/master/pipeline.svg
+[docker-image-link]: https://github.com/armt-solutions/send/container_registry/eyJuYW1lIjoidGltdmlzZWUvc2VuZCIsInRhZ3NfcGF0aCI6Ii90aW12aXNlZS9zZW5kL3JlZ2lzdHJ5L3JlcG9zaXRvcnkvMTQxODUwNC90YWdzP2Zvcm1hdD1qc29uIiwiaWQiOjE0MTg1MDQsImNsZWFudXBfcG9saWN5X3N0YXJ0ZWRfYXQiOm51bGx9
+[gitlab-ci-link]: https://github.com/armt-solutions/send/pipelines
+[gitlab-ci-master-badge]: https://github.com/armt-solutions/send/badges/master/pipeline.svg
 [release-badge]: https://img.shields.io/github/v/tag/timvisee/send
-[release-link]: https://gitlab.com/timvisee/send/-/tags
+[release-link]: https://github.com/armt-solutions/send/-/tags
 [repo-license-badge]: https://img.shields.io/github/license/timvisee/send.svg
 
 A fork of Mozilla's [Firefox Send][mozilla-send].
@@ -39,17 +39,17 @@ Please consider to [donate][donate] to allow me to keep working on this.
 
 Thanks [Mozilla][mozilla] for building this amazing tool!
 
-[branch-mozilla-master]: https://gitlab.com/timvisee/send/-/tree/mozilla-master
-[branch-send-v3]: https://gitlab.com/timvisee/send/-/tree/send-v3
-[branch-send-v4]: https://gitlab.com/timvisee/send/-/tree/send-v4
+[branch-mozilla-master]: https://github.com/armt-solutions/send/-/tree/mozilla-master
+[branch-send-v3]: https://github.com/armt-solutions/send/-/tree/send-v3
+[branch-send-v4]: https://github.com/armt-solutions/send/-/tree/send-v4
 [donate]: https://timvisee.com/donate
-[ffsend]: https://github.com/timvisee/ffsend
-[fork-commit]: https://gitlab.com/timvisee/send/-/commit/3e9be676413a6e1baaf6a354c180e91899d10bec
-[mozilla-patches-pr]: https://gitlab.com/timvisee/send/-/merge_requests/3
-[mozilla-patches]: https://gitlab.com/timvisee/send/-/compare/3e9be676413a6e1baaf6a354c180e91899d10bec...mozilla-master
+[ffsend]: https://github.com/armt-solutionsf/ffsend
+[fork-commit]: https://github.com/armt-solutions/send/-/commit/3e9be676413a6e1baaf6a354c180e91899d10bec
+[mozilla-patches-pr]: https://github.com/armt-solutions/send/-/merge_requests/3
+[mozilla-patches]: https://github.com/armt-solutions/send/-/compare/3e9be676413a6e1baaf6a354c180e91899d10bec...mozilla-master
 [mozilla-send]: https://github.com/mozilla/send
 [mozilla]: https://mozilla.org/
-[remove-branding-pr]: https://gitlab.com/timvisee/send/-/merge_requests/2
+[remove-branding-pr]: https://github.com/armt-solutions/send/-/merge_requests/2
 
 ---
 
@@ -150,7 +150,7 @@ AWS example using Ubuntu Server `20.04`: [docs/AWS.md](docs/AWS.md)
 ## Clients
 
 - Web: _this repository_
-- Command-line: [`ffsend`](https://github.com/timvisee/ffsend)
+- Command-line: [`ffsend`](https://github.com/armt-solutionsf/ffsend)
 - Android: _see [Android](#android) section_
 - Thunderbird: [FileLink provider for Send](https://addons.thunderbird.net/thunderbird/addon/filelink-provider-for-send/)
 

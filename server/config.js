@@ -241,7 +241,7 @@ const conf = convict({
   },
   footer_cli_url: {
     format: String,
-    default: 'https://github.com/timvisee/ffsend',
+    default: 'https://github.com/armt-solutionsf/ffsend',
     env: 'SEND_FOOTER_CLI_URL'
   },
   footer_dmca_url: {
@@ -329,6 +329,11 @@ const conf = convict({
       format: String,
       default: '',
       env: 'UI_CUSTOM_ASSETS_ICON'
+    },
+    icon_white: {
+      format: String,
+      default: '',
+      env: 'UI_CUSTOM_ASSETS_ICON_WHITE'
     },
     safari_pinned_tab: {
       format: String,

@@ -8,10 +8,14 @@ const path = require('path');
 
 module.exports = async function(req) {
   const locale = (() => {
-    if (config.custom_locale != '' && fs.existsSync(path.join(__dirname,'../public/locales',config.custom_locale))) {
-        return config.custom_locale;
-    }
-    else {
+    if (
+      config.custom_locale != '' &&
+      fs.existsSync(
+        path.join(__dirname, '../public/locales', config.custom_locale)
+      )
+    ) {
+      return config.custom_locale;
+    } else {
       return req.language || 'en-US';
     }
   })();
@@ -40,6 +44,7 @@ module.exports = async function(req) {
     favicon_16px: assets.get('favicon-16x16.png'),
     favicon_32px: assets.get('favicon-32x32.png'),
     icon: assets.get('icon.svg'),
+    icon_white: assets.get('icon_white.svg'),
     safari_pinned_tab: assets.get('safari-pinned-tab.svg'),
     facebook: baseUrl + '/' + assets.get('send-fb.jpg'),
     twitter: baseUrl + '/' + assets.get('send-twitter.jpg'),

@@ -6,8 +6,8 @@
   "contributors": [
     "Tim Visee <3a4fb3964f@sinenomine.email> (https://timvisee.com)"
   ],
-  "repository": "gitlab:timvisee/send",
-  "homepage": "https://gitlab.com/timvisee/send/",
+  "repository": "gitlab:armt-solutions/send",
+  "homepage": "https://github.com/armt-solutions/send/",
   "license": "MPL-2.0",
   "private": true,
   "scripts": {
