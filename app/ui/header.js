@@ -39,13 +39,19 @@ class Header extends Component {
     const title =
       platform() === 'android'
         ? html`
-            <a class="flex flex-row items-center">
+            <a
+              class="flex flex-row items-center"
+              href="https://armt.solutions/"
+            >
               <img class="hidden dark:block" src="${assetMap.icon_white}" />
               <img class="dark:hidden" src="${assetMap.icon}" />
             </a>
           `
         : html`
-            <a class="flex flex-row items-center" href="/">
+            <a
+              class="flex flex-row items-center"
+              href="https://armt.solutions/"
+            >
               <img
                 class="hidden dark:block"
                 alt="${this.state.translate('title')}"
