@@ -113,7 +113,7 @@ function allowedCopy() {
   return support ? document.queryCommandSupported('copy') : false;
 }
 
-function delay(delay = 100) {
+function delay(delay = 3) {
   return new Promise(resolve => setTimeout(resolve, delay));
 }
 
